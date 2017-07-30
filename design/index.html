@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Ramadan</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font -->
+    <link rel="stylesheet" type="text/css" href="font/roboto/Roboto-Regular.woff2">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-toggleable-md navbar-dark inverse fixed-top">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav1">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="#contact">CONTACT</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#basic">LOGIN</a>
+                            <div class="modal fade" id="basic" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog cascading-modal" role="document">
+                                    <!--Content-->
+                                    <div class="modal-content">
+
+                                        <!--Header-->
+                                        <div class="modal-header inverse darken-3 white-text">
+                                            
+                                            <h4 class="title"><i class="fa fa-user"></i> Log in</h4>
+                                        </div>
+                                        <!--Body-->
+                                        <div class="modal-body">
+                                            <div class="md-form form-sm">
+                                                <i class="fa fa-envelope prefix"></i>
+                                                <input type="text" id="form30" class="form-control" required=" required" name="email">
+                                                <label for="form30">Your email</label>
+                                            </div>
+
+                                            <div class="md-form form-sm">
+                                                <i class="fa fa-lock prefix"></i>
+                                                <input type="password" id="form31" class="form-control" required=" required" name="password">
+                                                <label for="form31">Your password</label>
+                                            </div>
+                                            <p id="errorMessage" style="color: red; font-size: 18px;"></p>
+                                            <div class="text-center mt-2">
+                                                <button type="submit" class="btn inverse waves-effect" id="formcontact" data-dismiss="modal">Log in <i class="fa fa-sign-in ml-1"></i></button>
+                                                
+                                            </div>
+
+                                        </div>
+                                        <!--Footer-->
+                                        <div class="text-center">
+                                            <div class="">
+                                                <h4>Sign in with</h4>
+                                            </div><br>
+                                            <div class="text-center social">
+                                                <a href="#"><img src="img/svg/facebook.svg" alt="facebook" style="width:20px;"></a>
+                                                <a href="#"><img src="img/twitter.png" alt="facebook" style="width:20px;"></a>
+                                                <a href="#"><img src="img/google-plus.png" alt="facebook" style="width:20px;"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--/.Content-->
+                                </div>
+                            </div>
+                            <!--Modal: Login Form-->
+                    </li>
+                       
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!--Carousel Wrapper-->
+    <div id="carousel-example-1z" class="carousel slide" data-ride="carousel">
+        <!--Indicators-->
+        <!-- <ol class="carousel-indicators">
+            <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+        </ol> -->
+        <!--/.Indicators-->
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+            <!--First slide-->
+            <div class="carousel-item active">
+                <img class="mosque" src="img/mosque.png" alt="First slide">
+            </div>
+            <div class="carousel-caption">
+                <!--Intro content-->
+                <div class="fully text-center">
+                    <h2>ISLAM THE RELIGION OF PEACE</h2>
+                    <h1>RAMADAN MUBARAKAT</h1>
+                    <p>We help to locate nearest Iftor close to you</p>
+                    <div class="bottons">
+                        <a class="btn btn-border-default waves-effect btn-lg login" data-toggle="modal" data-target="#register">Register</a>
+                            
+                          <!--Modal: Register Form-->
+                            <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog cascading-modal" role="document">
+                                    <!--Content-->
+                                    <div class="modal-content">
+
+                                        <!--Header-->
+                                        <div class="modal-header inverse darken-3 white-text">
+                                            
+                                            <h4 class="title"><i class="fa fa-user-plus"></i> Register</h4>
+                                        </div>
+                                        <!--Body-->
+                                        <div class="modal-body">
+                                            <div class="md-form form-sm">
+                                                <i class="fa fa-envelope prefix envelop" style="margin-left: -230px;"></i>
+                                                <input type="text" id="form32" class="form-control">
+                                                <label for="form32">Your email</label>
+                                            </div>
+
+                                            <div class="md-form form-sm">
+                                                <i class="fa fa-lock prefix" style="margin-left: -230px;"></i>
+                                                <input type="password" id="form33" class="form-control">
+                                                <label for="form33">Your password</label>
+                                            </div>
+
+                                            <div class="md-form form-sm">
+                                                <i class="fa fa-mobile prefix" style="margin-left: -230px;"></i>
+                                                <input type="number" id="form34" class="form-control" min="11" max="11">
+                                                <label for="form34">Phone number</label>
+                                            </div>
+                                            <div class="md-form form-sm">
+                                                <i class="fa fa-map-marker prefix" style="margin-left: -230px;"></i>
+                                                <input type="text" id="form34" class="form-control">
+                                                <label for="form34">Address</label>
+                                            </div>
+
+                                            <div class="text-center mt-2">
+                                                <button type="button" class="btn inverse waves-effect" data-dismiss="modal">Sign up <i class="fa fa-sign-in ml-1"></i></button>
+                                            </div>
+
+                                        </div>
+                                        <!--Footer-->
+                                        
+                                    </div>
+                                    <!--/.Content-->
+                                </div>
+                            </div>
+                            <!--Modal: Register Form-->
+                        <span class="dropdown">
+                          <button class="btn dropdown-toggle btn-border-default btn-lg" type="button" data-toggle="dropdown">Donate
+                          <span class="caret"></span></button>
+                          <ul class="dropdown-menu" style="margin-left: 10px;">
+                            <li><a href="payment.html">Money</a></li>
+                            <li><a href="cloth.html">Clothes</a></li>
+                            <li><a href="cloth.html">Food</a></li>
+                          </ul>
+                        </span>
+                    </div>
+                </div>
+               
+        <!--/Intro content-->
+            </div>
+            <!--/First slide-->
+            <!--Second slide-->
+            <div class="carousel-item">
+                <img class="mosque" src="img/mosque1.png" alt="Second slide">
+            </div>
+            <!--/Second slide-->
+            <!--Third slide-->
+            <div class="carousel-item">
+                <img class="mosque" src="img/mosque2.png" alt="Third slide">
+            </div>
+            <!--/Third slide-->
+        </div>
+        <!--/.Slides-->
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <!--/.Controls-->
+    </div>
+    <!--/.Carousel Wrapper-->
+
+
+    <div class="container section1">
+        <h2 class="text-center">EVENTS</h2>
+        <div class="row">
+            <div class="col-md-3">
+
+                <!--Card-->
+                <div class="card rounded">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img src="img/img1.jpg" class="img-fluid img-thumbnail" style="height: 150px; width: 100%;">
+                        <p>
+                            <div class="mask waves-effect waves-light"></div>
+                        </p>
+                    </div>
+                    <!--/Card image-->
+
+                    <!--Card content-->
+                    <div class="card-block text-center">
+                        <!--Title-->
+                        <h5 class="card-title"><strong>LIVE RAMADAN LECTURE</strong></h5>
+                        <h6 class="card-text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem aperiam. </h6>
+                        <a href="lecture.html"><button type="button" class="btn btn-danger">MORE</button></a>
+                    </div>
+                    <!--/.Card content-->
+                </div>
+                <!--/.Card-->
+
+            </div>
+
+            <div class="col-md-3">
+
+                <!--Card-->
+                <div class="card rounded">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img src="img/img2.jpg" class="img-fluid img-thumbnail" style="height: 150px; width: 100%;">
+                        <p>
+                            <div class="mask waves-effect waves-light"></div>
+                        </p>
+                    </div>
+                    <!--/Card image-->
+
+                    <!--Card content-->
+                    <div class="card-block text-center">
+                        <!--Title-->
+                        <h5 class="card-title"><strong>FREE FOOD LOCATIONS</strong></h5>
+                        <h6 class="card-text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem aperiam. </h6>
+                        <a href="freefood.html"><button type="button" class="btn btn-danger">MORE</button></a>
+                    </div>
+                    <!--/.Card content-->
+                </div>
+                <!--/.Card-->
+
+            </div>
+
+            <div class="col-md-3">
+
+                <!--Card-->
+                <div class="card rounded">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img src="img/img3.jpg" class="img-fluid img-thumbnail" style="height: 150px; width: 100%;">
+                        <p>
+                            <div class="mask waves-effect waves-light"></div>
+                        </p>
+                    </div>
+                    <!--/Card image-->
+
+                    <!--Card content-->
+                    <div class="card-block text-center">
+                        <!--Title-->
+                        <h5 class="card-title"><strong>ZAKAT</strong></h5>
+                        <h6 class="card-text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem aperiam. </h6>
+                        <a href="zakat.html"><button type="button" class="btn btn-danger">MORE</button></a>
+                    </div>
+                    <!--/.Card content-->
+                </div>
+                <!--/.Card-->
+            </div>
+            <div class="col-md-3">
+                <!--Card-->
+                <div class="card rounded">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img src="img/img4.jpg" class="img-fluid img-thumbnail" style="height: 150px; width: 100%;">
+                        <p>
+                            <div class="mask waves-effect waves-light"></div>
+                        </p>
+                    </div>
+                    <!--/Card image-->
+
+                    <!--Card content-->
+                    <div class="card-block text-center">
+                        <!--Title-->
+                        <h5 class="card-title"><strong>HAJJ & UMRAH</strong></h5>
+                        <h6 class="card-text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem aperiam. </h6>
+                        <a href="hajj.html"><button type="button" class="btn btn-danger">MORE</button></a>
+                    </div>
+                    <!--/.Card content-->
+                </div>
+                <!--/.Card-->
+            </div>
+
+        </div>
+    </div>
+    <div class="container section2">
+        <div class="row">
+           <div class="col-md-7 imgsection2">
+                <ol>
+                  <li><strong>Fasting this month is a pillar of islam</strong><p style="font-size: 12px;">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem aperiam. </p></li> 
+                  <li><strong>Fasting this month is a pillar of islam</strong><p style="font-size: 12px;">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem aperiam. </p></li> 
+                  <li><strong>Fasting this month is a pillar of islam</strong><p style="font-size: 12px;">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem aperiam. </p></li> 
+                  <li><strong>Fasting this month is a pillar of islam</strong><p style="font-size: 12px;">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem aperiam. </p></li> 
+                  <li><strong>Fasting this month is a pillar of islam</strong><p style="font-size: 12px;">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem aperiam. </p></li> 
+                </ol>
+            </div>
+           <div class="col-md-5">
+                <img class="head pull-right" src="img/head.png">
+                <div id="mdb-lightbox-ui"></div>
+                <div class="mdb-lightbox">
+                    <a href="img/handmecca.jpg" data-size="1600x1067">
+                        <img src="img/handmecca.jpg" class="img-fluid" style="height: 400px;" />
+                    </a>
+                </div><br><br><br>
+                <img src="img/oil-lamp.png">
+           </div>
+        </div> 
+    </div>
+    <div class="container-fluid section3">
+        <div class="row">
+            <div class="col-md-8"></div>
+             <div class="col-md-2 col2 text-center example z-depth-2"><h3 id="demo">9</h3><h4>RAMADAN</h4></div>
+             <div class="col-md-2"></div>
+        </div>
+    </div>
+    <div class="container section4">
+       <div class="row">
+           <div class="col-md-4 col4">
+               
+                <div class="view overlay hm-white-slight">
+                    <img src="img/ramadan1.jpg" class="img-fluid" style="height:320px; width:100%; border: 4px solid grey;">
+                    <p>
+                        <div class="mask waves-effect waves-light"></div>
+                    </p>
+                </div>
+                <img src="img/moon.png">
+            </div>        
+            <div class="col-md-4 col4 ramadan2">
+               <!--Card image-->
+                <div class="view overlay hm-white-slight">
+                    <img src="img/ramadan2.jpg" class="img-fluid" style="height:320px; width:100%; border: 4px solid blue;">
+                    <p>
+                        <div class="mask waves-effect waves-light"></div>
+                    </p>
+                </div>
+            </div> 
+           <div class="col-md-4">
+                <img src="img/tasbih.png" class="pull-right tasbih"><br><br><br><br><br><br><br>
+               <h5 >ISLAMIC RULES AND FUNDAMENTALS</h5>
+               <p>Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem aperiam. </p>
+                <a href="card.html"><button type="button" class="btn btn-danger pull-right">MORE</button></a>
+           </div>
+       </div> 
+    </div>
+
+    <div class="container section5">
+        <h2 class="text-center">CONTACT</h2>
+        <div class="row contact">
+            <div class="col-md-5 col-xs-4">
+                <img src="img/group1.png">
+                <h6> 07068575365</h6>
+            </div>
+            <div class="col-md-4 col-xs-4">
+                <img src="img/group2.png">
+                <h6 class="">42, Montgomery Yaba</h6>
+            </div>
+            <div class="col-md-3 col-xs-4">
+                <img src="img/group3.png" class="contactimg">
+                <h6 class="text-center">&nbsp;&nbsp;yinusabisol@gmail.com</h6>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid parallax">
+        
+    </div>
+
+    <footer>
+        <div class="container-fluid foot text-center">
+            © 2015 Copyright: <a href="#"> ramadanIslam.com </a>
+        </div>
+    </footer>
+            
+
+    
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js">
+    
+       
+        // MDB Lightbox Init
+        $(function () {
+            $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+        });
+    </script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript">
+        $('#formcontact').click(function(){
+        
+          //prevent a form from submitting if no email
+          if((document.getElementById("form30").value == "") && (document.getElementById("form31").value == "")){
+            document.getElementById("errorMessage").innerHTML = "please provide email and password";
+            //to STOP the form from submiting
+            return false;
+          }
+          else{
+            //reset and allow the form to submit
+            document.getElementById("errorMessage").innerHTML = "";
+            return true;
+          }
+       })
+
+        function myFunction() {
+              var msg = document.getElementById("az1");
+              msg.scrollIntoView();
+            }
+
+            
+        document.getElementById("demo").innerHTML = Date.parse(startdate).add(1).days();
+    </script>
+</body>
+
+</html>

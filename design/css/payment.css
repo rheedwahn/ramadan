@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Raleway-light);
+@import url(http://fonts.googleapis.com/css?family=Lato regular);
+
+@font-face{
+    font-family: raleway;
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face{
+    font-family: raleway light;
+    src: url(../fonts/Raleway-Light.ttf);
+}
+.erm{
+    font-family: raleway;
+}
+body{
+    font-family: raleway;
+    overflow-x: hidden;
+}
+.inverse{
+    background: black;
+}
+.modal .modal-dialog.modal-bottom-right {
+    right: 100px;
+    padding: 15px 30px;
+    bottom: 10px;
+}
+.modal .modal-dialog.modal-bottom-right {
+     right: 100px; 
+    bottom: 10px;
+}
+#modals{
+     right:100px;
+    bottom: 10px;
+}
+#navbarNav1 li{
+    margin-right: 50px;
+}
+.md-form #prefix {
+    margin: 10px;
+    position: absolute;
+    width: 3rem;
+    font-size: 1.5rem;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    -ms-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.der{
+    overflow-x: hidden;
+}
